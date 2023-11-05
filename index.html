@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+
+  <body>
+    <section id="navbar">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: white;" >
+          <a class="navbar-brand" href="#" style="font-weight: bold"
+            >Learnify</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="true"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse " id="navbarText">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="#carousel">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="#review">Review</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="#login">Login</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <section id="carousel">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active  ">
+            <img src="https://firki.co/pluginfile.php/1/theme_remui/section_slider/470215030/Discussions-Carousel%20%281%29.jpg" class="d-block w-100 carousel-img" alt="..." />
+            <div class="carousel-caption  h-50 align-items-center justify-content-center">
+              <h5 class="carousel-head">Unlock Your <span class="text-green">Potential</span></h5>
+              <p class="carousel-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit fuga molestias eveniet repudiandae
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://firki.co/pluginfile.php/1/theme_remui/section_slider/724471959/Webinars-Carousel%20%281%29.jpg" class="d-block w-100 carousel-img" alt="..." />
+            <div class="carousel-caption  h-50 align-items-center justify-content-center">
+              <h5 class="carousel-head">Empower Your <span class="text-red">Mind</span></h5>
+              <p class="carousel-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit fuga molestias eveniet repudiandae
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://staging.firki.co/pluginfile.php/1/theme_remui/section_slider/222236733/Carousel-Image-Courses.png" class="d-block w-100 carousel-img" alt="..." />
+            <div class="carousel-caption h-50 align-items-center justify-content-center">
+              <h5 class="carousel-head">Knowledge That <span class="text-red">Ignites</span></h5>
+              <p class="carousel-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit fuga molestias eveniet repudiandae
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section id="about" >
+      <div class="container">
+        <h1 class="common-head about-head">About <span class="text-red">Us</span> </h1>
+       <p class="about-text"> We Will Help You To Learn Easily With The Guidance Of A Professional Teacher</p>
+      <br>
+       <p class="about-text">
+        Welcome to Our Learen Education Centre</p>
+         <div class="d-flex justify-content-evenly row">
+          <div class="col-lg-4">
+            <div class="card about-card-content">
+              <center>
+                <img
+                  class="product-img"
+                  width="80"
+                  height="80"
+                  src="https://kinforce.net/learen/wp-content/uploads/2022/08/online-education-icons-7G7MVE-1.png"
+                />
+              </center>
+              <h2 class="about-card-body about-card-head">Learn More Anywhere</h2>
+              <p class="about-card-body about-card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing </p>
+            </div>
+          </div>
+           <div class="col-lg-4">
+            <div class="card about-card-content">
+              <center>
+                <img
+                  class="product-img"
+                  width="80"
+                  height="80"
+                  src="https://kinforce.net/learen/wp-content/uploads/2022/08/online-education-icons-7G7MVE-2.png"
+                />
+              </center>
+              <h2 class="about-card-body about-card-head">24/7 Strong Support</h2>
+              <p class="about-card-body about-card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing               </p>
+            </div>
+          </div>
+      </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h1 class="common-head about-head">Contact <span class="text-red">Us</span> </h1>
+      <div class="container">
+        <div class="d-flex justify-content-evenly row">
+          <div class="col-lg-4">
+            <div class="card card-content">
+              <center>
+                <img
+                  class="product-img"
+                  width="80"
+                  height="80"
+                  src="	https://kinforce.net/learen/wp-content/uploads/2022/08/online-education-icons-7G7MVE-2.png"
+                />
+              </center>
+              <h2 class="card-body card-head">Phone Number</h2>
+              <p class="card-body card-text">
+                Phone : +88 (0) 101 0000 000 Fax : +88 (0) 202 0000 001
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card card-content">
+              <center>
+                <img
+                  class="product-img"
+                  width="80"
+                  height="80"
+                  src="https://kinforce.net/learen/wp-content/uploads/2022/12/online-education-icons-7G7MVE-13.png"
+                />
+              </center>
+              <h2 class="card-body card-head">Phone Number</h2>
+              <p class="card-body card-text">
+                75/23 Folsom Ave, Suite 600 San Francisco, CA 94107
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card card-content">
+              <center>
+                <img
+                  class="product-img"
+                  width="80"
+                  height="80"
+                  src="	https://kinforce.net/learen/wp-content/uploads/2022/08/online-education-icons-7G7MVE-3.png"
+                />
+              </center>
+              <h2 class="card-body card-head">Phone Number</h2>
+              <p class="card-body card-text">
+                info@yourdomain.com name@yourdomain.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="review">
+      <!-- <div class="container">
+      
+      <img src="images/woman-3633737_1280.jpg" class="review-img" alt="dummy-img">
+    </div> -->
+    <div class="container">
+      <h1 class="common-head about-head">Review </h1>
+      <div class="row">
+        <div class="col-lg-4 col-sm-12">
+          <div class="review-card">
+            <div class="media">
+              <img
+                class="reviewer-img"
+                src="images/woman-3633737_1280.jpg"
+                alt="Reviewer Image"
+              />
+              <div class="media-body">
+                <div class="star-rating">★★★★☆</div>
+                <h5 class="mt-0 review-head">John Doe</h5>
+                <p class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-12">
+          <div class="review-card">
+            <div class="media">
+              <img
+                class="reviewer-img"
+                src="images/woman-3633737_1280.jpg"
+                alt="Reviewer Image"
+              />
+              <div class="media-body">
+                <div class="star-rating">★★★★★</div>
+                <h5 class="mt-0 review-head">Jane Smith</h5>
+                <p class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <div class="review-card">
+            <div class="media">
+              <img
+                class="reviewer-img"
+                src="images/woman-3633737_1280.jpg"
+                alt="Reviewer Image"
+              />
+              <div class="media-body">
+                <div class="star-rating">★★★☆☆</div>
+                <h5 class="mt-0 review-head">Angela Miar</h5>
+                <p class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section id="login" style="background-color: #fff1e7;">
+      <div class="container"> 
+        <h1 class="common-head about-head">Log <span class="text-red">in</span> </h1>
+
+      <center>
+      <div class="card col-lg-6 col-sm-6">
+        <div class="card-body login-card">
+            <div class="d-flex row">
+            <div class="col-lg-6 login-text">
+              <p class="text-login">Username </p>
+            </div>
+            <div class="col-lg-6">
+                <input type="text" class="form-control form-input-text" id="exampleInputName" placeholder="Enter the Username" aria-describedby="nameHelp">
+              </div>
+            <div class="col-lg-6 login-text">
+              <p class="text-login">Password  </p>
+            </div>
+            <div class="col-lg-6">
+                <input type="password" class="form-control form-input-text" id="exampleInputName" placeholder="Enter the Password" aria-describedby="nameHelp">
+              </div>
+            </div>
+           
+            <button type="button" class="btn form-btn btn-primary">Sign in</button>
+        </div>
+      </div>
+    </center>
+    </div>
+    </section>
+    <section id="footer">
+      <div class="container">
+        <br>
+        <div class="d-flex justify-content-around fotter-link">
+          <div class="footer-card">
+            <a class="fotter-text" href="#">Learn Bussiness</a> <br /><br />
+            <a class="fotter-text" href="#">Teach on learn</a><br /><br />
+            <a class="fotter-text" href="#">Get the app</a>
+          </div>
+          <div class="footer-card">
+            <a class="fotter-text" href="#">Help & Support</a><br /><br />
+            <a class="fotter-text" href="#">Careers</a><br /><br />
+            <a class="fotter-text" href="#">Investor Relationship</a>
+          </div>
+          <div class="footer-card">
+            <a class="fotter-text" href="#">Terms and Services</a><br /><br />
+            <a class="fotter-text" href="#">Privacy Policy</a><br /><br />
+            <a class="fotter-text" href="#">Disclosures</a>
+          </div>
+        </div>
+
+        <hr />
+        <div class="fotter-right">
+          <p>Copyright © 2023 <span class="footer-green">Learen</span> All rights reserved</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
